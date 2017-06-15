@@ -1,0 +1,13 @@
+@import "compass";
+@import "compass/css3";
+@import "var";
+@import 'reset';
+@import 'main';
+
+.wr {
+    max-width: 1000px;
+    min-width: 320px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+

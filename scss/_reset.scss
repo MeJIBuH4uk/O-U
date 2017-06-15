@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-weight: 100;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Georgia', serif;
+    position: relative;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../fonts/Georgia.eot');
+    src: url('../fonts/Georgia.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Georgia.woff') format('woff'),
+    url('../fonts/Georgia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
